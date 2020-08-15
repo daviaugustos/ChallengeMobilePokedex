@@ -56,12 +56,12 @@ export const styles = StyleSheet.create({
       marginHorizontal: 10
     },
     subHeaderText: {
-      fontFamily: 'SF Pro Display Regular',
+      fontFamily: 'SFProDisplay-Regular',
       fontSize: 15,
       color: '#747476'
     },
     headerTitleText: {
-      fontFamily: 'SF Pro Display Bold',
+      fontFamily: 'SFProDisplay-Bold',
       fontSize: 30
     },
     touchableImageOption: {

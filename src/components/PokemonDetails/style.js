@@ -18,7 +18,7 @@ export const StatsTitle = styled.Text`
     font-style: normal;
     line-height: 19px;
     font-weight: bold;
-    font-family: SF Pro Display Regular;
+    font-family: SFProDisplay-Regular;
 `;
 
 export const styles = StyleSheet.create({
@@ -34,7 +34,7 @@ export const styles = StyleSheet.create({
     },
     abilitieText: {
       color: '#747476',
-      fontFamily: 'SF Pro Display Bold',
+      fontFamily: 'SFProDisplay-Bold',
       marginTop: 5,
       fontSize: 15
     },

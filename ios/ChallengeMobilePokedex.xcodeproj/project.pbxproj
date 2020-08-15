@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* ChallengeMobilePokedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChallengeMobilePokedexTests.m */; };
-		0F20FCF65BFB4E7D904B41B1 /* SF Pro Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B60E29F8B69B4BAEB53942FC /* SF Pro Display Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -18,10 +17,11 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ChallengeMobilePokedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChallengeMobilePokedexTests.m */; };
 		35DBC0887BFEDAEFE8A2A329 /* libPods-ChallengeMobilePokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F56E7A607A0C3E996B24DF /* libPods-ChallengeMobilePokedex.a */; };
-		74B68EA65BBA4981A582114C /* SF Pro Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06A4E58D6CEA4C47960A6767 /* SF Pro Display Regular.ttf */; };
 		A37775D27368413D2A14F6A2 /* libPods-ChallengeMobilePokedex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE64A98CC32C3C5EB84A6E5 /* libPods-ChallengeMobilePokedex-tvOS.a */; };
 		C7294EBFA04D9824492F9026 /* libPods-ChallengeMobilePokedex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 574E0DFA44838ECF073C3E77 /* libPods-ChallengeMobilePokedex-tvOSTests.a */; };
 		EE2AD1512A928484D685D675 /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 903D3D55F756A8D67125585C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */; };
+		5AB301D10EA9426F802171BC /* SF Pro Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */; };
+		49EBA64F27BE47DAB409B73F /* SF Pro Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		00E356EE1AD99517003FC87E /* ChallengeMobilePokedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeMobilePokedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ChallengeMobilePokedexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeMobilePokedexTests.m; sourceTree = "<group>"; };
-		06A4E58D6CEA4C47960A6767 /* SF Pro Display Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display Regular.ttf"; path = "../assets/fonts/SF Pro Display Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ChallengeMobilePokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeMobilePokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChallengeMobilePokedex/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ChallengeMobilePokedex/AppDelegate.m; sourceTree = "<group>"; };
@@ -65,12 +64,13 @@
 		83061C1AF10E3055F7BFC322 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOSTests/Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8AE64A98CC32C3C5EB84A6E5 /* libPods-ChallengeMobilePokedex-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		903D3D55F756A8D67125585C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B60E29F8B69B4BAEB53942FC /* SF Pro Display Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display Bold.ttf"; path = "../assets/fonts/SF Pro Display Bold.ttf"; sourceTree = "<group>"; };
 		C9C86D93B8ABAFB3AE75351A /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOS/Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		EB67E3A01B3A89A7BF75EDED /* Pods-ChallengeMobilePokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex/Pods-ChallengeMobilePokedex.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F5F56E7A607A0C3E996B24DF /* libPods-ChallengeMobilePokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */ = {isa = PBXFileReference; name = "SF Pro Display Bold.ttf"; path = "../src/assets/fonts/SF Pro Display Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */ = {isa = PBXFileReference; name = "SF Pro Display Regular.ttf"; path = "../src/assets/fonts/SF Pro Display Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,18 +199,16 @@
 				646A71E7632B0AB64DE5E68D /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */,
 				83061C1AF10E3055F7BFC322 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E195DCFFB8CC45798A319600 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B60E29F8B69B4BAEB53942FC /* SF Pro Display Bold.ttf */,
-				06A4E58D6CEA4C47960A6767 /* SF Pro Display Regular.ttf */,
+				E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */,
+				ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,8 +353,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				0F20FCF65BFB4E7D904B41B1 /* SF Pro Display Bold.ttf in Resources */,
-				74B68EA65BBA4981A582114C /* SF Pro Display Regular.ttf in Resources */,
+				5AB301D10EA9426F802171BC /* SF Pro Display Bold.ttf in Resources */,
+				49EBA64F27BE47DAB409B73F /* SF Pro Display Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,12 +31,12 @@ MainInfos.propTypes = {
 
 const styles = StyleSheet.create({
     itemDetailNumber: {
-        fontFamily: 'SF Pro Display Bold',
+        fontFamily: 'SFProDisplay-Bold',
         fontSize: 12,
         color: 'rgba(23, 23, 27, 0.6);'
     },
     itemDetailTitle: {
-        fontFamily: 'SF Pro Display Bold',
+        fontFamily: 'SFProDisplay-Bold',
         fontSize: 25,
         color: '#FFF'
     },
