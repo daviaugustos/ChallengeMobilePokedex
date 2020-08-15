@@ -12,9 +12,10 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-          screenOptions={{
-        headerShown: false
-      }}>
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="PokemonDetails" component={PokemonDetailScreen} />
       </Stack.Navigator>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Svg, Path } from 'react-native-svg';
 
 const HomeSecondOption = () => (
-    <Svg
+  <Svg
     xmlns="http://www.w3.org/2000/svg"
     width="21"
     height="19"
