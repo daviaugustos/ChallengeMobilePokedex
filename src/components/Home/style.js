@@ -91,13 +91,12 @@ export const styles = StyleSheet.create({
   headerTitle: {
     flex: 1,
     paddingHorizontal: 40,
-
     marginTop: 30,
   },
   subHeaderView: {
     flex: 2,
     paddingHorizontal: 40,
-    marginVertical: 40,
+    marginVertical: 20,
   },
   main: {
     flex: 1,
