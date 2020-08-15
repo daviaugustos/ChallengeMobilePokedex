@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled , { css }from 'styled-components';
 import { StyleSheet } from 'react-native';
 
 export const Container = styled.View`
@@ -18,7 +18,14 @@ export const StatsTitle = styled.Text`
     font-style: normal;
     line-height: 19px;
     font-weight: bold;
-    font-family: SFProDisplay-Regular;
+    ${Platform.select({
+      ios: css`
+       font-family: SFProDisplay-Regular;
+      `,
+      android: css`
+       font-family: SF Pro Display Regular;
+      `,
+    })};
 `;
 
 export const styles = StyleSheet.create({
@@ -34,7 +41,7 @@ export const styles = StyleSheet.create({
     },
     abilitieText: {
       color: '#747476',
-      fontFamily: 'SFProDisplay-Bold',
+      fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Bold' : 'SF Pro Display Bold',
       marginTop: 5,
       fontSize: 15
     },

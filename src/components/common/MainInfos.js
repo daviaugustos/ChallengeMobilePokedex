@@ -3,6 +3,7 @@ import {
     View,
     Text,
     StyleSheet,
+    Platform,
 } from 'react-native';
 import PropTypes from 'prop-types';
 
@@ -31,12 +32,12 @@ MainInfos.propTypes = {
 
 const styles = StyleSheet.create({
     itemDetailNumber: {
-        fontFamily: 'SFProDisplay-Bold',
+        fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Bold' : 'SF Pro Display Bold',
         fontSize: 12,
         color: 'rgba(23, 23, 27, 0.6);'
     },
     itemDetailTitle: {
-        fontFamily: 'SFProDisplay-Bold',
+        fontFamily: Platform.OS === 'ios' ? 'SFProDisplay-Bold' : 'SF Pro Display Bold',
         fontSize: 25,
         color: '#FFF'
     },
