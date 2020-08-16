@@ -59,7 +59,7 @@ const HomeScreen = () => {
   useEffect(() => {
     if (searchValue !== '') {
       const filteredList = pokeList.filter((pokemonItem) =>
-        pokemonItem.name.includes(searchValue)
+        pokemonItem.name.includes(searchValue.toLowerCase())
       );
       setSearchList(filteredList);
     } else {
