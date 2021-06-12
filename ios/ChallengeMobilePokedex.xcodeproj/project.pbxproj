@@ -12,16 +12,16 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2594112009B664DF5C653360 /* libPods-ChallengeMobilePokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46652E81308C2052A9081B30 /* libPods-ChallengeMobilePokedex.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ChallengeMobilePokedexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChallengeMobilePokedexTests.m */; };
-		35DBC0887BFEDAEFE8A2A329 /* libPods-ChallengeMobilePokedex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F56E7A607A0C3E996B24DF /* libPods-ChallengeMobilePokedex.a */; };
-		A37775D27368413D2A14F6A2 /* libPods-ChallengeMobilePokedex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE64A98CC32C3C5EB84A6E5 /* libPods-ChallengeMobilePokedex-tvOS.a */; };
-		C7294EBFA04D9824492F9026 /* libPods-ChallengeMobilePokedex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 574E0DFA44838ECF073C3E77 /* libPods-ChallengeMobilePokedex-tvOSTests.a */; };
-		EE2AD1512A928484D685D675 /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 903D3D55F756A8D67125585C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */; };
-		5AB301D10EA9426F802171BC /* SF Pro Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */; };
+		46229A6E18ECBB46DCDA3696 /* libPods-ChallengeMobilePokedex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D11205D3E06D4C0DE2237CB /* libPods-ChallengeMobilePokedex-tvOS.a */; };
+		49A620AF30F449527F8A3A6C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA8B90F1DA5984CCB922A5C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */; };
 		49EBA64F27BE47DAB409B73F /* SF Pro Display Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */; };
+		5AB301D10EA9426F802171BC /* SF Pro Display Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */; };
+		8C4BDC315A636819F0855ADD /* libPods-ChallengeMobilePokedex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A427D1A739D06190FA1C5A60 /* libPods-ChallengeMobilePokedex-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,22 +55,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChallengeMobilePokedex/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ChallengeMobilePokedex-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChallengeMobilePokedex-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ChallengeMobilePokedex-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChallengeMobilePokedex-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56A800EE4F4D800E52228506 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig"; sourceTree = "<group>"; };
-		574E0DFA44838ECF073C3E77 /* libPods-ChallengeMobilePokedex-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		646A71E7632B0AB64DE5E68D /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOSTests/Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A78CE17A6F4D81B0D2A1E04 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOS/Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6C20253347E7ED0C0598487E /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig"; sourceTree = "<group>"; };
-		7BDE73B03A67833F4AAFCBB7 /* Pods-ChallengeMobilePokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex/Pods-ChallengeMobilePokedex.release.xcconfig"; sourceTree = "<group>"; };
-		83061C1AF10E3055F7BFC322 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOSTests/Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		8AE64A98CC32C3C5EB84A6E5 /* libPods-ChallengeMobilePokedex-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		903D3D55F756A8D67125585C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C86D93B8ABAFB3AE75351A /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOS/Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		EB67E3A01B3A89A7BF75EDED /* Pods-ChallengeMobilePokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex/Pods-ChallengeMobilePokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		46652E81308C2052A9081B30 /* libPods-ChallengeMobilePokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BF050795EEB2D9E239130C /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6279F13A734DAD4793179BA8 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOS/Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA8B90F1DA5984CCB922A5C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85326802C7742B546E939745 /* Pods-ChallengeMobilePokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex/Pods-ChallengeMobilePokedex.release.xcconfig"; sourceTree = "<group>"; };
+		86E6A3045E84ED107E313706 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D11205D3E06D4C0DE2237CB /* libPods-ChallengeMobilePokedex-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A427D1A739D06190FA1C5A60 /* libPods-ChallengeMobilePokedex-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89CD1FCE5DF75F8DF0B2254 /* Pods-ChallengeMobilePokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex/Pods-ChallengeMobilePokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display Regular.ttf"; path = "../src/assets/fonts/SF Pro Display Regular.ttf"; sourceTree = "<group>"; };
+		E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display Bold.ttf"; path = "../src/assets/fonts/SF Pro Display Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F5F56E7A607A0C3E996B24DF /* libPods-ChallengeMobilePokedex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChallengeMobilePokedex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8FE5B38D8294A0C83A67DC2 /* SF Pro Display Bold.ttf */ = {isa = PBXFileReference; name = "SF Pro Display Bold.ttf"; path = "../src/assets/fonts/SF Pro Display Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ACBB3B90CE384313B6AF44B5 /* SF Pro Display Regular.ttf */ = {isa = PBXFileReference; name = "SF Pro Display Regular.ttf"; path = "../src/assets/fonts/SF Pro Display Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F04239968F848F2384B27792 /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOS/Pods-ChallengeMobilePokedex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F6CB155CCF48FD24F2C3497B /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOSTests/Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80616072174B2841B5992A9 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ChallengeMobilePokedex-tvOSTests/Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2AD1512A928484D685D675 /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a in Frameworks */,
+				49A620AF30F449527F8A3A6C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DBC0887BFEDAEFE8A2A329 /* libPods-ChallengeMobilePokedex.a in Frameworks */,
+				2594112009B664DF5C653360 /* libPods-ChallengeMobilePokedex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A37775D27368413D2A14F6A2 /* libPods-ChallengeMobilePokedex-tvOS.a in Frameworks */,
+				46229A6E18ECBB46DCDA3696 /* libPods-ChallengeMobilePokedex-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7294EBFA04D9824492F9026 /* libPods-ChallengeMobilePokedex-tvOSTests.a in Frameworks */,
+				8C4BDC315A636819F0855ADD /* libPods-ChallengeMobilePokedex-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +145,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F5F56E7A607A0C3E996B24DF /* libPods-ChallengeMobilePokedex.a */,
-				903D3D55F756A8D67125585C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */,
-				8AE64A98CC32C3C5EB84A6E5 /* libPods-ChallengeMobilePokedex-tvOS.a */,
-				574E0DFA44838ECF073C3E77 /* libPods-ChallengeMobilePokedex-tvOSTests.a */,
+				46652E81308C2052A9081B30 /* libPods-ChallengeMobilePokedex.a */,
+				6BA8B90F1DA5984CCB922A5C /* libPods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.a */,
+				8D11205D3E06D4C0DE2237CB /* libPods-ChallengeMobilePokedex-tvOS.a */,
+				A427D1A739D06190FA1C5A60 /* libPods-ChallengeMobilePokedex-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,14 +190,14 @@
 		DB085DD32DBFE249DDC12D38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EB67E3A01B3A89A7BF75EDED /* Pods-ChallengeMobilePokedex.debug.xcconfig */,
-				7BDE73B03A67833F4AAFCBB7 /* Pods-ChallengeMobilePokedex.release.xcconfig */,
-				56A800EE4F4D800E52228506 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */,
-				6C20253347E7ED0C0598487E /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */,
-				6A78CE17A6F4D81B0D2A1E04 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */,
-				C9C86D93B8ABAFB3AE75351A /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */,
-				646A71E7632B0AB64DE5E68D /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */,
-				83061C1AF10E3055F7BFC322 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */,
+				A89CD1FCE5DF75F8DF0B2254 /* Pods-ChallengeMobilePokedex.debug.xcconfig */,
+				85326802C7742B546E939745 /* Pods-ChallengeMobilePokedex.release.xcconfig */,
+				58BF050795EEB2D9E239130C /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */,
+				86E6A3045E84ED107E313706 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */,
+				6279F13A734DAD4793179BA8 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */,
+				F04239968F848F2384B27792 /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */,
+				F6CB155CCF48FD24F2C3497B /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */,
+				F80616072174B2841B5992A9 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ChallengeMobilePokedexTests" */;
 			buildPhases = (
-				0CD924BD55A30E32C15B7313 /* [CP] Check Pods Manifest.lock */,
+				8FFAE28E0A9A96A58AB8D692 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -237,7 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChallengeMobilePokedex" */;
 			buildPhases = (
-				116B6282FBF8CFE785440938 /* [CP] Check Pods Manifest.lock */,
+				2977444A5EC02251A4CCE3D5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -257,7 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ChallengeMobilePokedex-tvOS" */;
 			buildPhases = (
-				512BF53980715A007CD9CE7C /* [CP] Check Pods Manifest.lock */,
+				6F21F89757736FF4014059B5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -277,7 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ChallengeMobilePokedex-tvOSTests" */;
 			buildPhases = (
-				F7B5D590D858809F260711DD /* [CP] Check Pods Manifest.lock */,
+				01F1A127E3E49EFB860D19EC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -390,7 +390,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0CD924BD55A30E32C15B7313 /* [CP] Check Pods Manifest.lock */ = {
+		01F1A127E3E49EFB860D19EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,14 +405,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeMobilePokedex-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		116B6282FBF8CFE785440938 /* [CP] Check Pods Manifest.lock */ = {
+		2977444A5EC02251A4CCE3D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,7 +448,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		512BF53980715A007CD9CE7C /* [CP] Check Pods Manifest.lock */ = {
+		6F21F89757736FF4014059B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +470,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F7B5D590D858809F260711DD /* [CP] Check Pods Manifest.lock */ = {
+		8FFAE28E0A9A96A58AB8D692 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,7 +485,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChallengeMobilePokedex-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -597,7 +597,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56A800EE4F4D800E52228506 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */;
+			baseConfigurationReference = 58BF050795EEB2D9E239130C /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -620,7 +620,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C20253347E7ED0C0598487E /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */;
+			baseConfigurationReference = 86E6A3045E84ED107E313706 /* Pods-ChallengeMobilePokedex-ChallengeMobilePokedexTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -640,7 +640,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB67E3A01B3A89A7BF75EDED /* Pods-ChallengeMobilePokedex.debug.xcconfig */;
+			baseConfigurationReference = A89CD1FCE5DF75F8DF0B2254 /* Pods-ChallengeMobilePokedex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -667,7 +667,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDE73B03A67833F4AAFCBB7 /* Pods-ChallengeMobilePokedex.release.xcconfig */;
+			baseConfigurationReference = 85326802C7742B546E939745 /* Pods-ChallengeMobilePokedex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -688,7 +688,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A78CE17A6F4D81B0D2A1E04 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6279F13A734DAD4793179BA8 /* Pods-ChallengeMobilePokedex-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -716,7 +716,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9C86D93B8ABAFB3AE75351A /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */;
+			baseConfigurationReference = F04239968F848F2384B27792 /* Pods-ChallengeMobilePokedex-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -744,7 +744,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 646A71E7632B0AB64DE5E68D /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F6CB155CCF48FD24F2C3497B /* Pods-ChallengeMobilePokedex-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -771,7 +771,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83061C1AF10E3055F7BFC322 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F80616072174B2841B5992A9 /* Pods-ChallengeMobilePokedex-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
