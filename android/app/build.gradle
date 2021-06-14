@@ -150,6 +150,12 @@ android {
             keyAlias 'pokedex_alias'
             keyPassword '123456'
         }
+        release {
+            storeFile file('pokedex.keystore')
+            storePassword '123456'
+            keyAlias 'pokedex_alias'
+            keyPassword '123456'
+        }
     }
     buildTypes {
         debug {
